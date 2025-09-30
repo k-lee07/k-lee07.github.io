@@ -12,7 +12,7 @@
   float: left;
   color: #FDFAF6;
   text-align: center;
-  padding: 20px 221px;
+  padding: 20px 20px;
   text-decoration: none;
   font-family: "Lucida Grande";
   font-size: 20px;
@@ -20,6 +20,9 @@
 .topnav a:hover {
   background-color: #98A869;
   color: #FDFAF6;
+}
+.icons a{
+    float: right;
 }
 /* need node JS or javascript for the below */
 /* .topnav a.active {
@@ -63,6 +66,7 @@ img.logo {
 }
 .top_gallery {
     margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -106,6 +110,22 @@ p.about_me{
     margin-left: 250px;
     margin-right: 250px;
     text-align: left;
+}
+h2.about_me{
+    display:block;
+    font-family: "Lucida Grande";
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #DCA1A1;
+}
+h3.about_me{
+    display:block;
+    font-family: "Lucida Grande";
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #DCA1A1;
 }
 
 /* images */
