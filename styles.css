@@ -1,5 +1,6 @@
 /* styles.css */
 
+
 /* BASE */
 
 /* Nav Bar */
@@ -14,14 +15,16 @@
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  font-family: "Lucida Grande";
+  font-family: "Oswald", "sans-serif";
   font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 .topnav a:hover {
   background-color: #98A869;
   color: #FDFAF6;
 }
-
 .icons a {
     float: right;
 }
@@ -30,37 +33,48 @@
     height: 20px;
     vertical-align: middle;
 }
-
-
 .topnav a.active {
   background-color: #DCA1A1;
   color: #FDFAF6;
 }
 
-
-/* Header */
+/* Headers */
 h1 {
-    font-family: "Lucida Grande";
+    font-family: "Kapakana", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
     color: #DCA1A1;
+    font-size: 75px;
+
+    margin-top: 5px;
 }
+
 
 /* Body */
 body {                
-    background-color: #FFE1DC;
+    background-color: #FFFFFF;
 }
 
+/* HOMEPAGE */
 
-/* Home */
+h2.index_hello {
+    font-family: "Oswald", "sans-serif";
+    font-weight: lighter;
+    font-size: 50px;
+    color: #DCA1A1;
+
+    margin-left: 10%;
+}
 
 /* Paragraphs */
-p.intro {
+p {
     display: block;
-    font-family: "Lucida Sans Unicode";
+    font-family: lato;
     margin-left: 0px;
-    text-align: center;
+    text-align: left;
 }
-
 
 /* Images */
 img.logo {
@@ -69,11 +83,12 @@ img.logo {
     display: block;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 0px;
     border: 2px solid #DCA1A1;
 }
 .top_gallery {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -83,8 +98,8 @@ img.logo {
     height: 250px;
     border-radius: 8px; 
 } */
-img.zaanse_schans{
-    width: 325px;
+img.quinta{
+    width: 250px;
     height: 250px;
     /* margin-left: 130px; */
 }
@@ -113,7 +128,6 @@ img.nara{
 /* text */
 p.about_me{
     display: block;
-    font-family: "Lucida Sans Unicode";
     margin-left: 250px;
     margin-right: 250px;
     text-align: left;
