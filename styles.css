@@ -132,9 +132,6 @@ h3.about_me{
     color: #DCA1A1;
 }
 
-.accordion_text p {
-    text-align: center;
-}
 
 /* images */
 img.headshot{
@@ -148,7 +145,6 @@ img.headshot{
 .accordion {
     font-family: "Lucida Grande";
     color: #FFE1DC;
-    font-weight: bold;
     font-size: 20px;
     text-align: left;
 
@@ -174,4 +170,8 @@ img.headshot{
     background-color: #DCA1A1;
     display: none;
     overflow: hidden;
+}
+.countries_font {
+    font-family: "Lucida Grande";
+    font-size: 20px;
 }
