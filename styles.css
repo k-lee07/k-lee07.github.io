@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Header */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Body */
+body {                
+    background-color: #FFFAFA;
+}
+
+/* Paragraphs */
+p.intro {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    text-align: center;
+}
+p.zaanse_schans{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 140px;
+    margin-top: 0px;
+}
+p.ponto_final{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 240px;
+    margin-top: 0px;    
+}
+
+/* Images */
+img.logo {
+    width: 125px;
+    border-radius: 62.5px;
+    display: block;
+    margin: auto;
+    border: 2px solid #EFC0D7;
+}
+.top_gallery {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* .top_gallery img {
+    width: 250px;            
+    height: 250px;
+    border-radius: 8px; 
+} */
+img.zaanse_schans{
+    width: 325px;
+    height: 250px;
+    /* margin-left: 130px; */
+}
+img.ponto_final{
+    width: 250px;
+    height: 250px;
+}
+img.romance_book{
+    width: 200px;
+    height: 250px;
+}
+img.mallorca_tram{
+    width: 200px;
+    height: 250px;
+}
+img.nara{
+    width: 250px;
+    height: 250px;
+}
+
