@@ -1,5 +1,30 @@
 /* styles.css */
 
+/* Nav Bar */
+.topnav {
+  position: relative;
+  background-color: #EFC0D7;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #FDFAF6;
+  text-align: center;
+  padding: 20px 221px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #e6b9d1;
+  color: #FDFAF6;
+}
+.topnav a.active {
+  background-color: #BDFFBD;
+  color: #FDFAF6;
+}
+
+
 /* Header */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -18,16 +43,7 @@ p.intro {
     margin-left: 0px;
     text-align: center;
 }
-p.zaanse_schans{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 140px;
-    margin-top: 0px;
-}
-p.ponto_final{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 240px;
-    margin-top: 0px;    
-}
+
 
 /* Images */
 img.logo {
@@ -35,6 +51,7 @@ img.logo {
     border-radius: 62.5px;
     display: block;
     margin: auto;
+    margin-top: 20px;
     border: 2px solid #EFC0D7;
 }
 .top_gallery {
