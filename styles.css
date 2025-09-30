@@ -3,7 +3,7 @@
 /* Nav Bar */
 .topnav {
   position: relative;
-  background-color: #EFC0D7;
+  background-color: #DCA1A1;
   overflow: hidden;
 }
 .topnav a {
@@ -16,24 +16,26 @@
   font-size: 20px;
 }
 .topnav a:hover {
-  background-color: #e6b9d1;
+  background-color: #98A869;
   color: #FDFAF6;
 }
-.topnav a.active {
+/* need node JS or javascript for the below */
+/* .topnav a.active {
   background-color: #BDFFBD;
   color: #FDFAF6;
-}
+} */
 
 
 /* Header */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color: #DCA1A1;
 }
 
 /* Body */
 body {                
-    background-color: #FFFAFA;
+    background-color: #FFE1DC;
 }
 
 /* Paragraphs */
@@ -52,7 +54,7 @@ img.logo {
     display: block;
     margin: auto;
     margin-top: 20px;
-    border: 2px solid #EFC0D7;
+    border: 2px solid #DCA1A1;
 }
 .top_gallery {
     margin-top: 50px;
