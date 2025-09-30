@@ -8,14 +8,19 @@
     <title>Kayla Lee • About Me</title>
 </head>
 <body>
-    <!-- nav bar -->
+    <!-- navbar -->
     <div class="topnav">
         <a class="active" href="index.html">Home</a>
-        
         <a href="blog.html">Blog</a>
-
         <a href="about.html">About Me</a>
-
+        <div class="icons">            
+            <a href="https://www.linkedin.com/in/kayla-e-lee/">
+                <img src="images/linkedin_icon.png">
+            </a>               
+            <a href="https://www.instagram.com/kaylaleeleelee/">
+                <img src="images/instagram_icon.png">
+            </a>
+        </div>
     </div>
     <!-- main header -->
     <img class="logo" src="images/logo.png">
@@ -27,17 +32,36 @@
         <br>
         I was extremely lucky to have been born into a family that lives and breathes travel so once I was older and daring enough to set out on my own, I started exploring the world and I hope I never stop &#128151 &#127757 
     </p>
-    <h2 class="about_me">Where Have I Been?</h2>
-    <p class="about_me">
-        I am so grateful to have been to all of these beautiful countries!
-    </p>
-    <h3 class="about_me">
-        Europe
-    </h3>
 
+    <!-- Accordion -->
+    <button class="accordion">Where In The World Have I Been?</button>
+    <div class="panel">
+        <p class="accordion_text">
+            I am so grateful to have been to all of these beautiful countries!<br><br>
+            <span class="countries_font">Europe</span>
+        </p>
+    </div>
+    <button class="accordion">Do I Do Anything Else With My Life?</button>
+    <div class="panel">
+    <p class="accordion_text">No!</p>
+    </div>
 
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-    <h2 class="about_me">Do I Do Anything Else With My Life?</h2>
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+    </script>
 
 </body>
 </html>

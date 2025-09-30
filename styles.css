@@ -21,14 +21,21 @@
   background-color: #98A869;
   color: #FDFAF6;
 }
-.icons a{
+
+.icons a {
     float: right;
 }
-/* need node JS or javascript for the below */
-/* .topnav a.active {
-  background-color: #BDFFBD;
+.icons img {
+    width:20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.topnav a.active {
+  background-color: #DCA1A1;
   color: #FDFAF6;
-} */
+}
 
 
 /* Header */
@@ -111,13 +118,10 @@ p.about_me{
     margin-right: 250px;
     text-align: left;
 }
-h2.about_me{
+span.countries{
     display:block;
     font-family: "Lucida Grande";
     text-align: left;
-    margin-left: 250px;
-    margin-right: 250px;
-    color: #DCA1A1;
 }
 h3.about_me{
     display:block;
@@ -128,6 +132,10 @@ h3.about_me{
     color: #DCA1A1;
 }
 
+.accordion_text p {
+    text-align: center;
+}
+
 /* images */
 img.headshot{
     width: 300px;
@@ -136,3 +144,34 @@ img.headshot{
     margin: auto;
 }
 
+/* accordion */
+.accordion {
+    font-family: "Lucida Grande";
+    color: #FFE1DC;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+
+    background-color: #DCA1A1;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+
+    border: none;
+    outline: 2px solid #FFE1DC;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #DEA193;
+}
+.panel {
+    font-family: "Lucida Sans Unicode";
+    color: #FFE1DC;
+    font-size: 16px;
+
+
+    padding: 0 18px;
+    background-color: #DCA1A1;
+    display: none;
+    overflow: hidden;
+}
