@@ -3,26 +3,66 @@
 
 /* BASE */
 
+
+body {                
+    background-color: #FFFFFF;
+}
+
+/* Headers */
+h1 {
+    font-family: "Kapakana", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #05472A;
+    font-size: 5rem;
+
+    margin-top: 1%;
+}
+
+h2 {
+    font-family: "Oswald", "sans-serif";
+    font-weight: lighter;
+    font-size: 3.5rem;
+    color: #DCA1A1;
+
+    margin-left: 10%;
+}
+
+/* Paragraphs */
+p {
+    display: block;
+    font-family: lato;
+    margin-left: 10%;
+    text-align: left;
+}
+
+span.emphasis_words {
+    font-family: "Kapakana", cursive;
+    font-size: 5rem;
+}
+
 /* Nav Bar */
 .topnav {
   position: relative;
-  background-color: #DCA1A1;
+  background-color: #05472A;
   overflow: hidden;
 }
 .topnav a {
   float: left;
-  color: #FDFAF6;
+  color: #FFFFFF;
   text-align: center;
-  padding: 20px 20px;
+  padding: 1% 1%;
   text-decoration: none;
   font-family: "Oswald", "sans-serif";
-  font-size: 20px;
+  font-size: 1.5rem;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
 .topnav a:hover {
-  background-color: #98A869;
+  background-color: #097343;
   color: #FDFAF6;
 }
 .icons a {
@@ -34,47 +74,12 @@
     vertical-align: middle;
 }
 .topnav a.active {
-  background-color: #DCA1A1;
-  color: #FDFAF6;
+  background-color: #05472A;
+  color: #FFFFFF;
 }
 
-/* Headers */
-h1 {
-    font-family: "Kapakana", cursive;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
-    color: #DCA1A1;
-    font-size: 75px;
-
-    margin-top: 5px;
-}
-
-
-/* Body */
-body {                
-    background-color: #FFFFFF;
-}
 
 /* HOMEPAGE */
-
-h2.index_hello {
-    font-family: "Oswald", "sans-serif";
-    font-weight: lighter;
-    font-size: 50px;
-    color: #DCA1A1;
-
-    margin-left: 10%;
-}
-
-/* Paragraphs */
-p {
-    display: block;
-    font-family: lato;
-    margin-left: 0px;
-    text-align: left;
-}
 
 /* Images */
 img.logo {
@@ -120,7 +125,21 @@ img.nara{
     height: 250px;
 }
 
-
+/* color bar */
+.colour_bar {
+    background-color: #088C59;
+    overflow: hidden;
+    padding: 3%;
+    text-align: center;
+}
+.colour_bar p {
+    font-family: "Oswald", "sans-serif";
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 
 /* ABOUT ME */
