@@ -100,15 +100,21 @@ img.logo {
     justify-content: center;
     gap: 10px;
 }
+.top_gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
 /* .top_gallery img {
     width: 250px;            
     height: 250px;
     border-radius: 8px; 
 } */
-img.quinta{
-    width: 250px;
-    height: 250px;
-    /* margin-left: 130px; */
+/* img.quinta{
+    width: 50%;
+    height: auto;
+    max-width: 400px;
+
 }
 img.ponto_final{
     width: 250px;
@@ -125,7 +131,7 @@ img.mallorca_tram{
 img.nara{
     width: 250px;
     height: 250px;
-}
+} */
 .staggered_gallery {
     display: flex;
     justify-content: center;
@@ -136,13 +142,13 @@ img.nara{
     height: auto;
 }
 .germany1 img {
-    margin-left: 10%;
+    margin-left: 1%;
     margin-top: 0%;
     margin-right: 10%;
 }
 .niagara1 img {
     margin-top: 20%;
-    margin-right: 10%;
+    margin-right: 1%;
 }
 
 
