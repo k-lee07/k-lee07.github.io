@@ -36,11 +36,13 @@ p {
     font-family: lato;
     margin-left: 10%;
     text-align: left;
+    font-size: 2rem;
 }
 
 span.emphasis_words {
     font-family: "Kapakana", cursive;
     font-size: 5rem;
+    font-weight: bold;
 }
 
 /* Nav Bar */
@@ -124,6 +126,37 @@ img.nara{
     width: 250px;
     height: 250px;
 }
+.staggered_gallery {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.staggered_gallery img {
+    width: 100%;
+    height: auto;
+}
+.germany1 img {
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-right: 10%;
+}
+.niagara1 img {
+    margin-top: 20%;
+    margin-right: 10%;
+}
+
+
+/* Text */
+.germany1 p {
+    font-size: 1.5rem;
+}
+.uppsala1 p {
+    font-size: 1.5rem;
+}
+.niagara1 p {
+    font-size: 1.5rem;
+}
+
 
 /* color bar */
 .colour_bar {
