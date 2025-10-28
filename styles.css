@@ -316,15 +316,38 @@ h5 {
     margin-right: auto;
     max-width: 90%;
 }
-.staggered-food-imgs {
+.staggered-imgs {
     display: flex;
     justify-content: center;
     gap: 5%;
     margin: 0 auto; /* This centers the container */
     max-width: 800px; /* Prevents it from getting too wide */
 }
-.staggered-food-imgs img {
+.staggered-imgs img {
     width: 45%; /* Each image takes 45% of container */
     max-width: 300px; /* But never wider than 300px */
     height: auto;
+}
+.staggered-imgs-mixed {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns tops of images */
+    gap: 5%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.staggered-imgs-mixed img {
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Target specific images by class */
+.staggered-imgs-mixed .krtek {
+    width: 80%; /* Narrower for vertical images */
+    max-width: 900px;
+}
+
+.staggered-imgs-mixed .prague_view {
+    width: 120%; /* Wider for horizontal images */
+    max-width: 900px;
 }
