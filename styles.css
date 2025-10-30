@@ -31,7 +31,11 @@ h2 {
     margin-top: 0%;
     margin-left: 10%;
 }
-
+.tagline h4 {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
 
 /* Paragraphs */
 p {
@@ -83,91 +87,6 @@ span.emphasis_words {
   color: #FFFFFF;
 }
 
-
-/* HOMEPAGE */
-
-/* Images */
-img.logo {
-    width: 125px;
-    border-radius: 62.5px;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border: 2px solid #DCA1A1;
-}
-.top_gallery {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 1%;
-
-}
-.top_gallery img {
-    width: 50%;
-    max-width: 250px;
-    height: auto;
-}
-/* .top_gallery img {
-    width: 250px;            
-    height: 250px;
-    border-radius: 8px; 
-} */
-/* img.quinta{
-    width: 50%;
-    height: auto;
-    max-width: 400px;
-
-}
-img.ponto_final{
-    width: 250px;
-    height: 250px;
-}
-img.romance_book{
-    width: 200px;
-    height: 250px;
-}
-img.mallorca_tram{
-    width: 200px;
-    height: 250px;
-}
-img.nara{
-    width: 250px;
-    height: 250px;
-} */
-.staggered_gallery {
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-}
-.staggered_gallery img {
-    width: 100%;
-    height: auto;
-}
-.germany1 img {
-    margin-left: 1%;
-    margin-top: 0%;
-    margin-right: 10%;
-}
-.niagara1 img {
-    margin-top: 20%;
-    margin-right: 1%;
-}
-
-
-/* Text */
-.germany1 p {
-    font-size: 1.5rem;
-}
-.uppsala1 p {
-    font-size: 1.5rem;
-}
-.niagara1 p {
-    font-size: 1.5rem;
-}
-
-
 /* color bar */
 .colour_bar {
     background-color: #088C59;
@@ -183,6 +102,77 @@ img.nara{
     color: #FFFFFF;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOMEPAGE */
+
+/* Images */
+img.logo {
+    width: 8%;
+    border-radius: 62.5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 2px solid #DCA1A1;
+}
+.top_gallery {
+    background-color:#FDFBD4;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+
+}
+.top_gallery img {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+}
+
+.index_hello {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-size: 2.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ABOUT ME */
